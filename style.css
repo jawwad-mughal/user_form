@@ -4,11 +4,93 @@
 }
 .card_layout{
     width: 800px;
-    height: 400px;
-    background-color: aqua;
+    height: 500px;
     overflow: hidden;
     margin: 150px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px black ;
 }
-.green{
-    
+.box_green{
+    background-color: rgb(17, 158, 71);
+    width: 60%;
+    height: 200%;
+    transform-origin: top right;
+    rotate: 43.8deg;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.right_box_white{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 50px;
+}
+.heading1{
+    margin-top: 90px;
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+.right_content{
+    position: absolute;
+    width: 300px;
+    top: 60px;
+    left: 30px;
+    z-index: 2;
+}
+.right_content>h1{
+    font-size: 3rem;
+    color: white;
+}
+.right_content>p{
+    line-height: 38px;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: white;
+}
+.right_content>button{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.right_box_white>form>label{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: rgb(172, 172, 173);
+}
+.sup{
+    color: red;
+}
+form>input{
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+form>input:focus{
+    outline: none;
+}
+form>button{
+    margin-top: 20px;
+    color: rgb(17, 158, 71);
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 10px 0px;
+    border: 2px solid rgb(17, 158, 71) ;
+    border-radius: 50px;
+}
+form>h3{
+    margin-top: 25px;
+    color: rgb(17, 158, 71);
+    font-size: 1.3rem;
+    font-weight: 200;
 }
