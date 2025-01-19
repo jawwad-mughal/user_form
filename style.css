@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.card_layout{
+    width: 800px;
+    height: 400px;
+    background-color: aqua;
+    overflow: hidden;
+    margin: 150px auto;
+}
+.green{
+    
+}
